@@ -1,4 +1,4 @@
-# Laravel 10 提供字串產生首字母縮寫巨集
+# Laravel 11 提供字串產生首字母縮寫巨集
 
 引入 koenhendriks 的 laravel-str-acronym 套件來擴增提供字串產生首字母縮寫巨集，首字母縮寫是由多個單字首字母所組成，鼓勵使用的首字母縮寫通常是人們長期熟悉的和公知公用的。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/LBjehqK.png)
+![](https://i.imgur.com/6KV209S.png)
 > 常用的首字母縮寫可以讓溝通變得更快速與有趣，這也是大部分人喜歡使用的原因之一，尤其是當他們試著在智慧型手機上打字更快速

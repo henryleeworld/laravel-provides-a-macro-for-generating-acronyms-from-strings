@@ -14,8 +14,8 @@ class StringsController extends Controller
             'I want to know God\'s thoughts; the rest are details.',
         ];
         foreach ($stringAry as $key => $string) {
-            echo '原始字串 ' . ($key + 1) . '：' . $string . PHP_EOL;
-            echo '首字母縮寫 ' . ($key + 1) . '：' . Str::acronym($string) . PHP_EOL;
+            echo __('Original string :number: ', ['number' => $key + 1]) . $string . PHP_EOL;
+            echo __('Acronym :number: ', ['number' => $key + 1]) . Str::acronym($string) . PHP_EOL . PHP_EOL;
         }
     }
 }
